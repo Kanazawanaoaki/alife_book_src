@@ -144,10 +144,10 @@ class ExploreModule(SubsumptionModule):
 ######################
 # change architecture
 ######################
-# controller = AvoidModule()
+controller = AvoidModule()
 #controller = WanderModule()
 #controller = ChaosWanderModule()  # ワンダーモジュールの内部にカオスを入れる
-controller = ExploreModule()
+#controller = ExploreModule()
 
 # simulatorの初期化 (Appendix参照)
 simulator = VehicleSimulator(obstacle_num=5, feed_num=40)
